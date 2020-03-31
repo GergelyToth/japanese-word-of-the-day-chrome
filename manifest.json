@@ -1,0 +1,12 @@
+{
+  "name": "Japanese word of the Day",
+  "version": "0.1",
+  "description": "Replaces new tab screen with a new Japanese word every day.",
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

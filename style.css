@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#kanji {
+  grid-column: span 2;
+  font-size: 6em;
+  font-weight: 700;
+}
+
+#hiragana, #romaji {
+  font-size: 4em;
+}
+
+#hiragana {
+  text-align: right;
+}
+
+#romaji {
+  text-align: left;
+}
+
+#english {
+  grid-column: span 2;
+  font-size: 3.5em;
+}
+
+#clock {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  color: #fff;
+  font-size: 5em;
+}
